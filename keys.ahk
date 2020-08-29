@@ -93,11 +93,7 @@ KeyWait, RControl
 Return
 $RControl Up:: 
 
-+home::SendMessage,0x112,0xF170,2,,Program Manager ;turn the screen off
-
-
-
-
++`:: SendMessage,0x112,0xF170,2,,Program Manager
 tog()
 {
     static togstate = 0
