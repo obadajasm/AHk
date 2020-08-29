@@ -67,6 +67,8 @@ Hotstring("EndChars", "*")
 
 :*:(O::()
 :*:) _::_
+
+:*:e) _::_
 :*:a) _::a_
 :*:%T::T
 :*:*I::I
@@ -91,7 +93,7 @@ KeyWait, RControl
 Return
 $RControl Up:: 
 
-
++home::SendMessage,0x112,0xF170,2,,Program Manager ;turn the screen off
 
 
 
@@ -113,3 +115,6 @@ tog()
 		
     }
 }
+
+
+
